@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,  // 添加这一行
+    "moduleResolution": "node"  // 确保使用node模块解析
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
